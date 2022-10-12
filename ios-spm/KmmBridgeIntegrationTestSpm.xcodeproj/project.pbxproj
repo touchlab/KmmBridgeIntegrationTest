@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4696681428F7770B00564873 /* shared in Frameworks */ = {isa = PBXBuildFile; productRef = 4696681328F7770B00564873 /* shared */; };
 		46E4FD6B28F4D3E6009DA968 /* KmmBridgeIntegrationTestSpmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4FD6A28F4D3E6009DA968 /* KmmBridgeIntegrationTestSpmApp.swift */; };
 		46E4FD6D28F4D3E6009DA968 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4FD6C28F4D3E6009DA968 /* ContentView.swift */; };
 		46E4FD6F28F4D3E8009DA968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E4FD6E28F4D3E8009DA968 /* Assets.xcassets */; };
@@ -14,7 +15,6 @@
 		46E4FD7C28F4D3E8009DA968 /* KmmBridgeIntegrationTestSpmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4FD7B28F4D3E8009DA968 /* KmmBridgeIntegrationTestSpmTests.swift */; };
 		46E4FD8628F4D3E8009DA968 /* KmmBridgeIntegrationTestSpmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4FD8528F4D3E8009DA968 /* KmmBridgeIntegrationTestSpmUITests.swift */; };
 		46E4FD8828F4D3E8009DA968 /* KmmBridgeIntegrationTestSpmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4FD8728F4D3E8009DA968 /* KmmBridgeIntegrationTestSpmUITestsLaunchTests.swift */; };
-		63581C3F28F76401005509A2 /* shared in Frameworks */ = {isa = PBXBuildFile; productRef = 63581C3E28F76401005509A2 /* shared */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63581C3F28F76401005509A2 /* shared in Frameworks */,
+				4696681428F7770B00564873 /* shared in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +146,7 @@
 			);
 			name = KmmBridgeIntegrationTestSpm;
 			packageProductDependencies = (
-				63581C3E28F76401005509A2 /* shared */,
+				4696681328F7770B00564873 /* shared */,
 			);
 			productName = KmmBridgeIntegrationTestSpm;
 			productReference = 46E4FD6728F4D3E6009DA968 /* KmmBridgeIntegrationTestSpm.app */;
@@ -221,7 +221,7 @@
 			);
 			mainGroup = 46E4FD5E28F4D3E6009DA968;
 			packageReferences = (
-				63581C3D28F76401005509A2 /* XCRemoteSwiftPackageReference "KmmBridgeIntegrationTest" */,
+				4696681228F7770B00564873 /* XCRemoteSwiftPackageReference "KmmBridgeIntegrationTest" */,
 			);
 			productRefGroup = 46E4FD6828F4D3E6009DA968 /* Products */;
 			projectDirPath = "";
@@ -589,20 +589,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		63581C3D28F76401005509A2 /* XCRemoteSwiftPackageReference "KmmBridgeIntegrationTest" */ = {
+		4696681228F7770B00564873 /* XCRemoteSwiftPackageReference "KmmBridgeIntegrationTest" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/touchlab/KmmBridgeIntegrationTest.git";
+			repositoryURL = "git@github.com:touchlab/KmmBridgeIntegrationTest.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		63581C3E28F76401005509A2 /* shared */ = {
+		4696681328F7770B00564873 /* shared */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 63581C3D28F76401005509A2 /* XCRemoteSwiftPackageReference "KmmBridgeIntegrationTest" */;
+			package = 4696681228F7770B00564873 /* XCRemoteSwiftPackageReference "KmmBridgeIntegrationTest" */;
 			productName = shared;
 		};
 /* End XCSwiftPackageProductDependency section */

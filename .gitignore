@@ -12,3 +12,5 @@ build
 xcuserdata/
 !/.idea/codeStyles/*
 !/.idea/inspectionProfiles/*
+.build
+Package.resolved
