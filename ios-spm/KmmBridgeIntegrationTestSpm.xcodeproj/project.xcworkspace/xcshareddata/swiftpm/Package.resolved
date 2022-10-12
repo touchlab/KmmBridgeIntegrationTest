@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "kmmbridgeintegrationtest",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/touchlab/KmmBridgeIntegrationTest.git",
+      "state" : {
+        "revision" : "649d9ca1835f83de9ecfb30d87b38d927d6d4f12",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
