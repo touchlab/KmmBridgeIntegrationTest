@@ -65,7 +65,7 @@ jobs:
       - name: Build SPM Sample
         run: |
           cd ios-spm
-          swift package reset
+          swift package update
           xcodebuild -configuration Debug -scheme KmmBridgeIntegrationTestSpm -sdk iphonesimulator 
 
       - name: Build Cocoapods Sample
