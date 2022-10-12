@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		469667E328F5EB8800564873 /* KmmBridgeIntegrationTestCocoapodsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469667E228F5EB8800564873 /* KmmBridgeIntegrationTestCocoapodsApp.swift */; };
+		469667E528F5EB8800564873 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469667E428F5EB8800564873 /* ContentView.swift */; };
+		469667E728F5EB8A00564873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469667E628F5EB8A00564873 /* Assets.xcassets */; };
+		469667EA28F5EB8A00564873 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469667E928F5EB8A00564873 /* Preview Assets.xcassets */; };
+		469667F428F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469667F328F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsTests.swift */; };
+		469667FE28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469667FD28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITests.swift */; };
+		4696680028F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469667FF28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITestsLaunchTests.swift */; };
+		C9986DEDEBAE654514BF5F77 /* libPods-KmmBridgeIntegrationTestCocoapods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A4DB3FEFA1BEE4EC6B357E7 /* libPods-KmmBridgeIntegrationTestCocoapods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		469667F028F5EB8A00564873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 469667D728F5EB8800564873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 469667DE28F5EB8800564873;
+			remoteInfo = KmmBridgeIntegrationTestCocoapods;
+		};
+		469667FA28F5EB8A00564873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 469667D728F5EB8800564873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 469667DE28F5EB8800564873;
+			remoteInfo = KmmBridgeIntegrationTestCocoapods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		469667DF28F5EB8800564873 /* KmmBridgeIntegrationTestCocoapods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KmmBridgeIntegrationTestCocoapods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		469667E228F5EB8800564873 /* KmmBridgeIntegrationTestCocoapodsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmmBridgeIntegrationTestCocoapodsApp.swift; sourceTree = "<group>"; };
+		469667E428F5EB8800564873 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		469667E628F5EB8A00564873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		469667E928F5EB8A00564873 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		469667EF28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KmmBridgeIntegrationTestCocoapodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		469667F328F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmmBridgeIntegrationTestCocoapodsTests.swift; sourceTree = "<group>"; };
+		469667F928F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KmmBridgeIntegrationTestCocoapodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		469667FD28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmmBridgeIntegrationTestCocoapodsUITests.swift; sourceTree = "<group>"; };
+		469667FF28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmmBridgeIntegrationTestCocoapodsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E02AB6499B2064FA40DD2F0 /* Pods-KmmBridgeIntegrationTestCocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KmmBridgeIntegrationTestCocoapods.debug.xcconfig"; path = "Target Support Files/Pods-KmmBridgeIntegrationTestCocoapods/Pods-KmmBridgeIntegrationTestCocoapods.debug.xcconfig"; sourceTree = "<group>"; };
+		826B5D32D0F477EF9BE56F7B /* Pods-KmmBridgeIntegrationTestCocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KmmBridgeIntegrationTestCocoapods.release.xcconfig"; path = "Target Support Files/Pods-KmmBridgeIntegrationTestCocoapods/Pods-KmmBridgeIntegrationTestCocoapods.release.xcconfig"; sourceTree = "<group>"; };
+		8A4DB3FEFA1BEE4EC6B357E7 /* libPods-KmmBridgeIntegrationTestCocoapods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KmmBridgeIntegrationTestCocoapods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		469667DC28F5EB8800564873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9986DEDEBAE654514BF5F77 /* libPods-KmmBridgeIntegrationTestCocoapods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469667EC28F5EB8A00564873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469667F628F5EB8A00564873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		469667D628F5EB8800564873 = {
+			isa = PBXGroup;
+			children = (
+				469667E128F5EB8800564873 /* KmmBridgeIntegrationTestCocoapods */,
+				469667F228F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsTests */,
+				469667FC28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITests */,
+				469667E028F5EB8800564873 /* Products */,
+				48389FAC9040B277B18274D1 /* Pods */,
+				B350FC2F17DD2A74D65B95B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		469667E028F5EB8800564873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				469667DF28F5EB8800564873 /* KmmBridgeIntegrationTestCocoapods.app */,
+				469667EF28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsTests.xctest */,
+				469667F928F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		469667E128F5EB8800564873 /* KmmBridgeIntegrationTestCocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				469667E228F5EB8800564873 /* KmmBridgeIntegrationTestCocoapodsApp.swift */,
+				469667E428F5EB8800564873 /* ContentView.swift */,
+				469667E628F5EB8A00564873 /* Assets.xcassets */,
+				469667E828F5EB8A00564873 /* Preview Content */,
+			);
+			path = KmmBridgeIntegrationTestCocoapods;
+			sourceTree = "<group>";
+		};
+		469667E828F5EB8A00564873 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				469667E928F5EB8A00564873 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		469667F228F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				469667F328F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsTests.swift */,
+			);
+			path = KmmBridgeIntegrationTestCocoapodsTests;
+			sourceTree = "<group>";
+		};
+		469667FC28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				469667FD28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITests.swift */,
+				469667FF28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITestsLaunchTests.swift */,
+			);
+			path = KmmBridgeIntegrationTestCocoapodsUITests;
+			sourceTree = "<group>";
+		};
+		48389FAC9040B277B18274D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E02AB6499B2064FA40DD2F0 /* Pods-KmmBridgeIntegrationTestCocoapods.debug.xcconfig */,
+				826B5D32D0F477EF9BE56F7B /* Pods-KmmBridgeIntegrationTestCocoapods.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B350FC2F17DD2A74D65B95B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A4DB3FEFA1BEE4EC6B357E7 /* libPods-KmmBridgeIntegrationTestCocoapods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		469667DE28F5EB8800564873 /* KmmBridgeIntegrationTestCocoapods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4696680328F5EB8A00564873 /* Build configuration list for PBXNativeTarget "KmmBridgeIntegrationTestCocoapods" */;
+			buildPhases = (
+				02515887F58E2F8F2CF1EBFC /* [CP] Check Pods Manifest.lock */,
+				469667DB28F5EB8800564873 /* Sources */,
+				469667DC28F5EB8800564873 /* Frameworks */,
+				469667DD28F5EB8800564873 /* Resources */,
+				C9FB3F86974033FB3AB720B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KmmBridgeIntegrationTestCocoapods;
+			productName = KmmBridgeIntegrationTestCocoapods;
+			productReference = 469667DF28F5EB8800564873 /* KmmBridgeIntegrationTestCocoapods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		469667EE28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4696680628F5EB8A00564873 /* Build configuration list for PBXNativeTarget "KmmBridgeIntegrationTestCocoapodsTests" */;
+			buildPhases = (
+				469667EB28F5EB8A00564873 /* Sources */,
+				469667EC28F5EB8A00564873 /* Frameworks */,
+				469667ED28F5EB8A00564873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				469667F128F5EB8A00564873 /* PBXTargetDependency */,
+			);
+			name = KmmBridgeIntegrationTestCocoapodsTests;
+			productName = KmmBridgeIntegrationTestCocoapodsTests;
+			productReference = 469667EF28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		469667F828F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4696680928F5EB8A00564873 /* Build configuration list for PBXNativeTarget "KmmBridgeIntegrationTestCocoapodsUITests" */;
+			buildPhases = (
+				469667F528F5EB8A00564873 /* Sources */,
+				469667F628F5EB8A00564873 /* Frameworks */,
+				469667F728F5EB8A00564873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				469667FB28F5EB8A00564873 /* PBXTargetDependency */,
+			);
+			name = KmmBridgeIntegrationTestCocoapodsUITests;
+			productName = KmmBridgeIntegrationTestCocoapodsUITests;
+			productReference = 469667F928F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		469667D728F5EB8800564873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					469667DE28F5EB8800564873 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					469667EE28F5EB8A00564873 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 469667DE28F5EB8800564873;
+					};
+					469667F828F5EB8A00564873 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 469667DE28F5EB8800564873;
+					};
+				};
+			};
+			buildConfigurationList = 469667DA28F5EB8800564873 /* Build configuration list for PBXProject "KmmBridgeIntegrationTestCocoapods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 469667D628F5EB8800564873;
+			productRefGroup = 469667E028F5EB8800564873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				469667DE28F5EB8800564873 /* KmmBridgeIntegrationTestCocoapods */,
+				469667EE28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsTests */,
+				469667F828F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		469667DD28F5EB8800564873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469667EA28F5EB8A00564873 /* Preview Assets.xcassets in Resources */,
+				469667E728F5EB8A00564873 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469667ED28F5EB8A00564873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469667F728F5EB8A00564873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02515887F58E2F8F2CF1EBFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KmmBridgeIntegrationTestCocoapods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9FB3F86974033FB3AB720B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KmmBridgeIntegrationTestCocoapods/Pods-KmmBridgeIntegrationTestCocoapods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KmmBridgeIntegrationTestCocoapods/Pods-KmmBridgeIntegrationTestCocoapods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KmmBridgeIntegrationTestCocoapods/Pods-KmmBridgeIntegrationTestCocoapods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		469667DB28F5EB8800564873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469667E528F5EB8800564873 /* ContentView.swift in Sources */,
+				469667E328F5EB8800564873 /* KmmBridgeIntegrationTestCocoapodsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469667EB28F5EB8A00564873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469667F428F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469667F528F5EB8A00564873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4696680028F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITestsLaunchTests.swift in Sources */,
+				469667FE28F5EB8A00564873 /* KmmBridgeIntegrationTestCocoapodsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		469667F128F5EB8A00564873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 469667DE28F5EB8800564873 /* KmmBridgeIntegrationTestCocoapods */;
+			targetProxy = 469667F028F5EB8A00564873 /* PBXContainerItemProxy */;
+		};
+		469667FB28F5EB8A00564873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 469667DE28F5EB8800564873 /* KmmBridgeIntegrationTestCocoapods */;
+			targetProxy = 469667FA28F5EB8A00564873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4696680128F5EB8A00564873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4696680228F5EB8A00564873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4696680428F5EB8A00564873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E02AB6499B2064FA40DD2F0 /* Pods-KmmBridgeIntegrationTestCocoapods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KmmBridgeIntegrationTestCocoapods/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.touchlab.KmmBridgeIntegrationTestCocoapods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4696680528F5EB8A00564873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826B5D32D0F477EF9BE56F7B /* Pods-KmmBridgeIntegrationTestCocoapods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KmmBridgeIntegrationTestCocoapods/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.touchlab.KmmBridgeIntegrationTestCocoapods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4696680728F5EB8A00564873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.touchlab.KmmBridgeIntegrationTestCocoapodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KmmBridgeIntegrationTestCocoapods.app/KmmBridgeIntegrationTestCocoapods";
+			};
+			name = Debug;
+		};
+		4696680828F5EB8A00564873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.touchlab.KmmBridgeIntegrationTestCocoapodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KmmBridgeIntegrationTestCocoapods.app/KmmBridgeIntegrationTestCocoapods";
+			};
+			name = Release;
+		};
+		4696680A28F5EB8A00564873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.touchlab.KmmBridgeIntegrationTestCocoapodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KmmBridgeIntegrationTestCocoapods;
+			};
+			name = Debug;
+		};
+		4696680B28F5EB8A00564873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.touchlab.KmmBridgeIntegrationTestCocoapodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KmmBridgeIntegrationTestCocoapods;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469667DA28F5EB8800564873 /* Build configuration list for PBXProject "KmmBridgeIntegrationTestCocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4696680128F5EB8A00564873 /* Debug */,
+				4696680228F5EB8A00564873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4696680328F5EB8A00564873 /* Build configuration list for PBXNativeTarget "KmmBridgeIntegrationTestCocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4696680428F5EB8A00564873 /* Debug */,
+				4696680528F5EB8A00564873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4696680628F5EB8A00564873 /* Build configuration list for PBXNativeTarget "KmmBridgeIntegrationTestCocoapodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4696680728F5EB8A00564873 /* Debug */,
+				4696680828F5EB8A00564873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4696680928F5EB8A00564873 /* Build configuration list for PBXNativeTarget "KmmBridgeIntegrationTestCocoapodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4696680A28F5EB8A00564873 /* Debug */,
+				4696680B28F5EB8A00564873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 469667D728F5EB8800564873 /* Project object */;
+}
