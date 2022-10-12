@@ -17,16 +17,17 @@ jobs:
           java-version: "11"
       
       # TODO we'll want to be able to specify branch/commit/tag probably. For PoC, just use main.
-      - name: "Checkout plugin"
-        uses: actions/checkout@v3
-        with:
-          repository: touchlab/kmmbridge
-          path: build/kmmbridge
-
-      - name: Validate Gradle Wrapper
-        uses: gradle/wrapper-validation-action@v1
-        with:
-          min-wrapper-count: 2 # Validating both the local wrapper and the one in the cloned plugin
+      # TODO temp disabled so we can test the rest of the flow without needing to do this clone each time
+#       - name: "Checkout plugin"
+#         uses: actions/checkout@v3
+#         with:
+#           repository: touchlab/kmmbridge
+#           path: build/kmmbridge
+#
+#       - name: Validate Gradle Wrapper
+#         uses: gradle/wrapper-validation-action@v1
+#         with:
+#           min-wrapper-count: 2 # Validating both the local wrapper and the one in the cloned plugin
 
       # Copied from KMMBridgeGithubWorkflow
       - name: Apply SSH Key
@@ -65,7 +66,6 @@ jobs:
       - name: Build SPM Sample
         run: |
           cd ios-spm
-          swift package resolve
           xcodebuild -configuration Debug -scheme KmmBridgeIntegrationTestSpm -sdk iphonesimulator 
 
       - name: Build Cocoapods Sample
