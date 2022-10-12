@@ -1,5 +1,5 @@
 class Test {
     init {
-        println("hello")
+        println("hello?")
     }
 }
