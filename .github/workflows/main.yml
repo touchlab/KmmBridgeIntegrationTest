@@ -51,10 +51,11 @@ jobs:
             ~/.konan
           key: ${{ runner.os }}-v4-${{ hashFiles('*.gradle.kts') }}
 
-      - name: Local publish plugin
-        run: |
-          cd build/kmmbridge
-          ./gradlew publishToMavenLocal -PRELEASE_SIGNING_ENABLED=false -PVERSION_NAME=999
+      # TODO temp disabled so we can test the rest of the flow without needing to do this clone each time
+#       - name: Local publish plugin
+#         run: |
+#           cd build/kmmbridge
+#           ./gradlew publishToMavenLocal -PRELEASE_SIGNING_ENABLED=false -PVERSION_NAME=999
 
       # Copied from KMMBridgeGithubWorkflow
       - name: Publish shared
