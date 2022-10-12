@@ -17,17 +17,16 @@ jobs:
           java-version: "11"
       
       # TODO we'll want to be able to specify branch/commit/tag probably. For PoC, just use main.
-      # TODO temp disabled so we can test the rest of the flow without needing to do this clone each time
-#       - name: "Checkout plugin"
-#         uses: actions/checkout@v3
-#         with:
-#           repository: touchlab/kmmbridge
-#           path: build/kmmbridge
-#
-#       - name: Validate Gradle Wrapper
-#         uses: gradle/wrapper-validation-action@v1
-#         with:
-#           min-wrapper-count: 2 # Validating both the local wrapper and the one in the cloned plugin
+      - name: "Checkout plugin"
+        uses: actions/checkout@v3
+        with:
+          repository: touchlab/kmmbridge
+          path: build/kmmbridge
+
+      - name: Validate Gradle Wrapper
+        uses: gradle/wrapper-validation-action@v1
+        with:
+          min-wrapper-count: 2 # Validating both the local wrapper and the one in the cloned plugin
 
       # Copied from KMMBridgeGithubWorkflow
       - name: Apply SSH Key
@@ -51,11 +50,10 @@ jobs:
             ~/.konan
           key: ${{ runner.os }}-v4-${{ hashFiles('*.gradle.kts') }}
 
-      # TODO temp disabled so we can test the rest of the flow without needing to do this clone each time
-#       - name: Local publish plugin
-#         run: |
-#           cd build/kmmbridge
-#           ./gradlew publishToMavenLocal -PRELEASE_SIGNING_ENABLED=false -PVERSION_NAME=999
+      - name: Local publish plugin
+        run: |
+          cd build/kmmbridge
+          ./gradlew publishToMavenLocal -PRELEASE_SIGNING_ENABLED=false -PVERSION_NAME=999
 
       # Copied from KMMBridgeGithubWorkflow
       - name: Publish shared
