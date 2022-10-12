@@ -62,11 +62,11 @@ jobs:
           GRADLE_OPTS: -Dkotlin.incremental=false -Dorg.gradle.jvmargs="-Xmx3g -XX:MaxPermSize=2048m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8 -XX:MaxMetaspaceSize=512m"
 
       # TODO need to verify that we're building against the newly published version
-#       - name: Build SPM Sample
-#         run: |
-#           cd ios-spm
-#           swift package reset
-#           xcodebuild -configuration Debug -scheme KmmBridgeIntegrationTestSpm -sdk iphonesimulator 
+      - name: Build SPM Sample
+        run: |
+          cd ios-spm
+          swift package reset
+          xcodebuild -configuration Debug -scheme KmmBridgeIntegrationTestSpm -sdk iphonesimulator 
 
       - name: Build Cocoapods Sample
         run: |
