@@ -593,7 +593,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:touchlab/KmmBridgeIntegrationTest.git";
 			requirement = {
-				branch = master;
+				branch = main;
 				kind = branch;
 			};
 		};
