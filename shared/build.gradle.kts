@@ -2,7 +2,6 @@ plugins {
     kotlin("multiplatform") version "1.7.20"
     kotlin("native.cocoapods") version "1.7.20"
     id("com.android.library") version "7.2.2"
-    `maven-publish`
     id("co.touchlab.faktory.kmmbridge") version "+"
 }
 
@@ -59,7 +58,5 @@ kmmbridge {
     spm("../")
     cocoapods("git@github.com:Touchlab/Podspecs.git")
     gitTagVersions()
-    mavenPublishArtifacts()
+    githubReleaseArtifacts()
 }
-
-addGithubPackagesRepository()
