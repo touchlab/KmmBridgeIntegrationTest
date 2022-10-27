@@ -2,7 +2,7 @@ plugins {
     kotlin("multiplatform") version "1.7.20"
     kotlin("native.cocoapods") version "1.7.20"
     id("com.android.library") version "7.2.2"
-    id("co.touchlab.faktory.kmmbridge") version "+"
+    id("co.touchlab.faktory.kmmbridge") version "999"
     `maven-publish`
 }
 
