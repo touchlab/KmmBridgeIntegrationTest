@@ -17,12 +17,13 @@ mavenLocal as part of the integration test workflow.
 
 1. Clone this repo
 2. Make whatever config changes are needed for the new test case
-3. Generate a new SSH keypair. Make sure the comment matches the ssh url of the new repo, and don't set a passphrase.  
+3. Ensure that Touchlab-Bot has write access to the cloned repo
+4. Generate a new SSH keypair. Make sure the comment matches the ssh url of the new repo, and don't set a passphrase.  
    `ssh-keygen -t ed25519 -f <filename> -C "git@github.com:touchlab/<repo-name>.git"`
-4. Add the public key of your newly created keypair as a Deploy Key to this repo. Make sure to check "Allow write
+5. Add the public key of your newly created keypair as a Deploy Key to this repo. Make sure to check "Allow write
    access"
-5. Add the private key of your newly created keypair as an Actions secret in the KMMBridge repo
-6. Edit the `integration-tests.yml` workflow on KMMBridge
+6. Add the private key of your newly created keypair as an Actions secret in the KMMBridge repo
+7. Edit the `integration-tests.yml` workflow on KMMBridge
     - Add the new repo to the `sample` array
         ```yaml
         strategy:
