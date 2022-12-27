@@ -55,7 +55,7 @@ android {
 }
 
 kmmbridge {
-    versionPrefix.set("1.3")
+    versionPrefix.set("1.4")
     spm("../")
     cocoapods("git@github.com:Touchlab/Podspecs.git")
     gitTagVersions()
