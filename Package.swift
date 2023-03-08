@@ -2,8 +2,8 @@
 import PackageDescription
 
 // BEGIN KMMBRIDGE VARIABLES BLOCK (do not edit)
-let remoteKotlinUrl = "https://maven.pkg.github.com/touchlab/KmmBridgeIntegrationTest/co/touchlab/shared-kmmbridge/1.4.77/shared-kmmbridge-1.4.77.zip"
-let remoteKotlinChecksum = "cbad7ce4cb1776757b288601d55d3e1635f57660a5db20d8c1931db823eeaaeb"
+let remoteKotlinUrl = "https://maven.pkg.github.com/touchlab/KmmBridgeIntegrationTest/co/touchlab/shared-kmmbridge/1.4.78/shared-kmmbridge-1.4.78.zip"
+let remoteKotlinChecksum = "051eb7d279930619000072c32b63b53f600e7002b7ec49ca13a4bd17ab9e27cc"
 let packageName = "shared"
 // END KMMBRIDGE BLOCK
 
