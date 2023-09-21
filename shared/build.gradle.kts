@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "co.touchlab"
-version = "1.0"
+version = "0.7"
 
 repositories {
     mavenLocal()
@@ -60,11 +60,10 @@ android {
 }
 
 kmmbridge {
-    versionPrefix.set("1.4")
     spm("../")
-    cocoapods("git@github.com:Touchlab/Podspecs.git")
-    gitTagVersions()
+//    cocoapods("git@github.com:Touchlab/Podspecs.git")
     mavenPublishArtifacts()
+    timestampVersions()
 }
 
 addGithubPackagesRepository()
