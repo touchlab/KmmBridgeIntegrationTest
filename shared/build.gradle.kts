@@ -1,7 +1,7 @@
 plugins {
-    kotlin("multiplatform") version "1.8.10"
-    kotlin("native.cocoapods") version "1.8.10"
-    id("com.android.library") version "7.4.1"
+    kotlin("multiplatform") version "1.8.20"
+    kotlin("native.cocoapods") version "1.8.20"
+    id("com.android.library") version "8.1.0"
     id("co.touchlab.faktory.kmmbridge") version "999"
     `maven-publish`
 }
@@ -47,11 +47,16 @@ kotlin {
 }
 
 android {
+    namespace = "co.touchlab.faktory.kmmbridge.test"
     compileSdk = 33
     defaultConfig {
         minSdk = 21
     }
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
 }
 
 kmmbridge {
